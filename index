@@ -16,4 +16,65 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script language="javascript" type="text/javascript" src="js/validaciones.js">        
     </script>
+    
+</head>
+
+<body>
+    <div id="imagenMenu">
+        <header>
+            <img class="img-responsive" id="logo" src="img/logos.jpg" />
+        </header><br /><br />
+    </div>
+
+    <div>
+        <nav role="navigation">
+            <ul>
+                <li><a id="activo" href="Inicio.html">Inicio</a></li>
+                <li><a href="Gestion.html">Gestión De Edificios</a></li>
+                <li><a href="Solicitudes.html">Solicitudes</a></li>
+                <li><a href="Reportes.html">Reportes</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+    incluir archivos JavaScript individuales de los únicos
+    plugins que utilices) -->
+    <script src="js/bootstrap.min.js"></script>
+    <br><br><br><br><br>
+
+    
+
+    <h1 class="titulos">Bienvenido "Usuario"</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed ipsum metus, pulvinar sed volutpat sit amet, fermentum in orci. Quisque vitae neque lectus, quis accumsan massa. Vivamus viverra orci eu dolor tristique sollicitudin. Duis sollicitudin laoreet tellus ac dictum. Fusce suscipit lectus vel elit posuere volutpat. Morbi ornare eros ut magna ullamcorper feugiat. Vivamus feugiat ligula vel nisi venenatis eleifend. Morbi accumsan rhoncus viverra. Integer orci nisi, cursus sit amet luctus quis, dictum eget massa.</p>
+
+    
+
+    
+    <footer id="piePagina">
+        <address>
+            <strong>Empresa S.A.</strong><br>
+            Camino Agrícola<br>
+            Santiago, Macul 3433000<br>
+            <abbr title="Teléfono">Tel:</abbr> 942 723 331
+    
+
+        <address>
+            <strong>Nombre Apellido</strong><br>
+            <a href="mailto:#">nombre.apellido@ejemplo.com</a>
+        </address>
+
+
+
+
+    </footer>
+
+
+</body>
+</html>
 

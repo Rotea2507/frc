@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="ISO-8859-1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Inicio de Sesión</title>
+
+    <!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <link rel="shortcut icon" href="./img/logoIco.ico"/>
+
+    <link rel="stylesheet" type="text/css" href="css/styleLogin.css"/>
+    <script language="javascript" type="text/javascript" src="js/validaciones.js">        
+    </script>
+
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <img class="img-responsive" id="logo" src="img/logo.jpg" />
+        </header>
+    </div>
+
+    
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+    incluir archivos JavaScript individuales de los únicos
+    plugins que utilices) -->
+    <script src="js/bootstrap.min.js"></script>
+    
+
+	<div>
+		<form role="formulario">
+			<h2 >Inicio de Sesión</h2>
+			<br>
+			<div class="form-group btn-toolbar">
+				
+					<span class="glyphicon glyphicon-user"></span>
+					<label for="usuario">Usuario</label>
+					<input type="text" class="form-control" id="usuario"
+					placeholder="Introduce tu usuario">
+				
+			</div>
+
+			<div class="form-group">
+				<span class="glyphicon glyphicon-asterisk"></span>
+				<label for="contraseña">Contraseña</label>
+				<input type="password" class="form-control" id="contraseña"
+				placeholder="Contraseña">
+			</div>
+						
+			<input type="submit" class="btn btn-default" name="ingresar" title="Ingresar" value="Ingresar">
+		</form>
+	</div>
+   
+</body>
+</html>

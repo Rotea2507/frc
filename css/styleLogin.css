@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 400px;
+	padding:20px;
+	border: 1px solid #600;
+	border-radius: 5px 5px 5px 5px;		
+	background-color: #EEEE;
+	-webkit-box-shadow: -1px 4px 29px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 29px 5px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 29px 5px rgba(0,0,0,0.75);
+
+
+}
+
+html {
+	background-image: url('../img/bomberos.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+	color:white; filter:alpha(opacity=100); opacity:1; 
+}
+
+#logo {
+	height: 300px;
+	width: 300px;
+	border-radius: 20px 20px 20px 20px;
+	margin: auto;	
+}
+
+#Formulario{
+	margin:auto;	
+	width:300px;
+	padding-bottom: 30px;
+
+}
+
+.label {
+	display:block;
+	width:100px;
+	text-align:right;
+	margin-right:3px;
+	float:left;
+	
+	color: #000;
+}
+
